@@ -1,0 +1,29 @@
+.navigation-container {
+    padding: 1rem 11%;
+    font-family: $titillium;
+    box-shadow: $shadow;
+    .logo {
+      color: $primary;
+      font-size: 2.4rem;
+      font-weight: 700;
+    }
+    .navmenus-container {
+      list-style-type: none;
+      li {
+        margin: 0 1rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+        i{
+          margin-right: .5rem;
+          color: $light-gray;
+        }
+        a {
+          color: $light-gray;
+        }
+      }
+    }
+    .active-link{
+      color :#5cb85c ;
+      font-weight : 600;
+    }
+  }
